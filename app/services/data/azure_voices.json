@@ -1,5 +1,13 @@
 [
   {
+    "name": "hi-IN-SwaraNeural",
+    "gender": "Female"
+  },
+  {
+    "name": "hi-IN-MadhurNeural",
+    "gender": "Male"
+  },
+  {
     "name": "af-ZA-AdriNeural",
     "gender": "Female"
   },
