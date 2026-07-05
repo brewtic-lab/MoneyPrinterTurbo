@@ -1,0 +1,32 @@
+[app]
+    # ================= FREE + CPU SETUP =================
+
+    # ---- LLM: Pollinations (FREE, no API key) ----
+    llm_provider = "pollinations"
+    pollinations_api_key = ""
+    pollinations_base_url = "https://text.pollinations.ai/openai"
+    pollinations_model_name = "openai-fast"
+
+    # ---- Video source: Pexels (FREE HD clips) ----
+    video_source = "pexels"
+    pexels_api_keys = ["gMfAO6R4qxRZwkHiSJ6wGqWRXWMnbtrffP28kuEL4bD4BvlSeWp4gAXQ"]
+
+    # ---- Subtitles: edge mode (CPU, no GPU) ----
+    subtitle_enabled = true
+    subtitle_provider = "edge"
+
+    # ---- Voice: Edge TTS (FREE, no key) ----
+    voice_name = "en-US-JennyNeural-Female"
+
+    # ---- Misc defaults ----
+    font_name = "MicrosoftYaHeiBold.ttc"
+    hide_config = false
+
+[whisper]
+    model_size = "base"
+    device = "CPU"
+    compute_type = "int8"
+
+[ui]
+    hide_log = false
+    language = "en"
